@@ -2,7 +2,7 @@ var daysTag = document.getElementById("daysleft");
 var hrsTag = document.getElementById("hrsleft");
 var minTag = document.getElementById("minsleft");
 var secTag = document.getElementById("secleft");
-
+var discountDate = document.querySelector(".discountDate");
 function offerTimer(){
     var currentDate = new Date();
     var dateNew = new Date(currentDate.getFullYear(),currentDate.getMonth(),currentDate.getDate()+2,4,0,0);
@@ -15,7 +15,9 @@ function offerTimer(){
     hrsTag.innerHTML = `${hrsLeft} <span>:</span>`;
     minTag.innerHTML = `${minutesLeft} <span>:</span>`;
     secTag.innerHTML = `${secondsLeft}`;
+    discountDate.innerHTML = `${dateNew.getDate()}/${dateNew.getMonth()}/${dateNew.getFullYear()}`;
 }
+
 offerTimer();
 setInterval(offerTimer,1000);
 

@@ -1,10 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
+    color: aliceblue;
 }
 nav{
     background-color: black;
-    color: aliceblue;
 }
 .header{
     display: flex;
@@ -69,4 +69,15 @@ span{
     background-image: url("https://img.freepik.com/free-photo/abstract-circular-blinds-oscillation-background-3d-rings-wavy-surface-geometric-elements-displacement_1217-2529.jpg?w=1060&t=st=1679755740~exp=1679756340~hmac=e6b951d615e3ad7b1283b0497461039b118514335175722b116dbb2acddcc764");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.sliderWrapper{
+    display: flex;
+    width: 400vw;
+    position: relative;
+}
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

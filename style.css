@@ -98,6 +98,7 @@ span{
     font-size:20vh;
     text-align: center;
     color: aliceblue;
+    text-shadow: 12px 5px 15px rgb(34, 33, 33);
 }
 .productPrice{
     position: absolute;

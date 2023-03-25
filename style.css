@@ -129,3 +129,7 @@ span{
     height: 25vh;
     width: 20vw;
 }
+.featureTitle{
+    font-weight: bold;
+    font-size: larger;
+}

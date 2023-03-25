@@ -76,6 +76,7 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    clip-path: polygon(50% 0%, 100% 0, 100% 94%, 51% 100%, 51% 100%, 0 95%, 0 0);
 }
 .sliderWrapper{
     display: flex;

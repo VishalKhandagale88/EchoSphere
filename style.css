@@ -8,6 +8,9 @@ body{
     align-items: baseline;
     background-color: black;
 }
+.brand{
+    color: aliceblue;
+}
 .searchbar{
     display: flex;
     align-items: center;

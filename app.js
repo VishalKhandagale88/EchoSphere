@@ -11,7 +11,6 @@ function offerTimer(){
     var hrsLeft = Math.floor(milliSeconds/3600)%24;
     var minutesLeft = Math.floor(milliSeconds/60)%60;
     var secondsLeft = Math.floor(milliSeconds)%60;
-    console.log(daysLeft,hrsLeft,minutesLeft,secondsLeft);
     daysTag.innerHTML = `${daysLeft} <span>:</span>`;
     hrsTag.innerHTML = `${hrsLeft} <span>:</span>`;
     minTag.innerHTML = `${minutesLeft} <span>:</span>`;
@@ -19,3 +18,11 @@ function offerTimer(){
 }
 offerTimer();
 setInterval(offerTimer,1000);
+
+const slideWrapper = document.querySelector(".sliderWrapper");
+const productSelected = document.querySelectorAll(".availableProducts");
+productSelected.forEach((itemSelected,index)=>{
+    itemSelected.addEventListener("click",()=>{
+        slideWrapper.style.transform = `translateX(${-100*index}vw)`;
+    });
+});

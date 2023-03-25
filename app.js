@@ -1,13 +1,21 @@
-
+var daysTag = document.getElementById("daysleft");
+var hrsTag = document.getElementById("hrsleft");
+var minTag = document.getElementById("minsleft");
+var secTag = document.getElementById("secleft");
 
 function offerTimer(){
     var currentDate = new Date();
-    var dateNew = new Date(currentDate.getFullYear(),currentDate.getMonth(),currentDate.getDate()+2,4,14,40);
-    var daysLeft = dateNew.getDate()-currentDate.getDate();
-    var hrsLeft = Math.abs(dateNew.getHours()-currentDate.getHours());
-    var minutesLeft = Math.abs(dateNew.getMinutes()-currentDate.getMinutes());
-    var secondsLeft = Math.abs(dateNew.getSeconds()-currentDate.getSeconds());
+    var dateNew = new Date(currentDate.getFullYear(),currentDate.getMonth(),currentDate.getDate()+2,4,0,0);
+    var milliSeconds = (dateNew-currentDate)/1000;
+    var daysLeft = Math.floor(milliSeconds/3600/24);
+    var hrsLeft = Math.floor(milliSeconds/3600)%24;
+    var minutesLeft = Math.floor(milliSeconds/60)%60;
+    var secondsLeft = Math.floor(milliSeconds)%60;
     console.log(daysLeft,hrsLeft,minutesLeft,secondsLeft);
+    daysTag.innerHTML = `${daysLeft}`;
+    hrsTag.innerHTML = `${hrsLeft}`;
+    minTag.innerHTML = `${minutesLeft}`;
+    secTag.innerHTML = `${secondsLeft}`;
 
 }
 

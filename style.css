@@ -4,7 +4,14 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
     background-color: black;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    padding: 10px;
+    border-radius:15px;
 }

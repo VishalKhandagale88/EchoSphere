@@ -48,6 +48,9 @@ nav{
 }
 .offerTimer{
     display: flex;
-    gap: 6px;
+    gap: 30px;
     text-align: center;
+}
+span{
+    margin-left: 15px;
 }

@@ -140,3 +140,8 @@ span{
 .featureDescription{
     text-align: center;
 }
+.discountDate{
+    font-size: large;
+    font-weight: bold;
+    color: gold;
+}

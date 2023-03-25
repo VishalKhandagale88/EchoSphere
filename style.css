@@ -119,17 +119,24 @@ span{
 }
 .features{
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .feature{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .featureImage{
-    height: 25vh;
-    width: 20vw;
+    height: 20vh;
+    width: 15vw;
 }
 .featureTitle{
     font-weight: bold;
     font-size: larger;
+    text-align: center;
+}
+.featureDescription{
+    text-align: center;
 }

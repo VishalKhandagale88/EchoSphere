@@ -25,3 +25,12 @@ body{
     background-color: aqua;
     border-radius: 15px;
 }
+.searchicon{
+    background-color: aqua;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.searchicon :hover{
+    cursor: pointer;
+}

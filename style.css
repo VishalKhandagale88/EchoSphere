@@ -165,3 +165,7 @@ span{
     font-size: 100px;
     font-weight: 900;
 }
+.descriptionOfProduct{
+    font-size: large;
+    color: grey;
+}

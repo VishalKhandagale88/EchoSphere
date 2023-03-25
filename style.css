@@ -169,3 +169,12 @@ span{
     font-size: large;
     color: grey;
 }
+.colorsAvailable{
+    display: flex;
+    gap: 15px;
+}
+.color{
+    background-color: brown;
+    height: 5vh;
+    width: 3vw;  
+}

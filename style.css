@@ -116,3 +116,11 @@ span{
     font-weight: bold;
     cursor: pointer;
 }
+.features{
+    display: flex;
+}
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

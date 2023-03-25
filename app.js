@@ -12,11 +12,10 @@ function offerTimer(){
     var minutesLeft = Math.floor(milliSeconds/60)%60;
     var secondsLeft = Math.floor(milliSeconds)%60;
     console.log(daysLeft,hrsLeft,minutesLeft,secondsLeft);
-    daysTag.innerHTML = `${daysLeft}`;
-    hrsTag.innerHTML = `${hrsLeft}`;
-    minTag.innerHTML = `${minutesLeft}`;
+    daysTag.innerHTML = `${daysLeft} <span>:</span>`;
+    hrsTag.innerHTML = `${hrsLeft} <span>:</span>`;
+    minTag.innerHTML = `${minutesLeft} <span>:</span>`;
     secTag.innerHTML = `${secondsLeft}`;
-
 }
 
 offerTimer();

@@ -124,3 +124,7 @@ span{
     flex-wrap: wrap;
     justify-content: center;
 }
+.featureImage{
+    height: 16vh;
+    width: 10vw;
+}

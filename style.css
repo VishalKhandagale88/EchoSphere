@@ -171,10 +171,14 @@ span{
 }
 .colorsAvailable{
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 .color{
     background-color: brown;
     height: 5vh;
     width: 3vw;  
+    border-radius: 10px;
+}
+.color:last-child{
+    background-color: blue;
 }

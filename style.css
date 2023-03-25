@@ -153,3 +153,11 @@ span{
 .productImageSelected{
     width: 50%;
 }
+.productDetails{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: larger;
+    width: 40%;
+    padding: 50px;
+}

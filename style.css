@@ -4,14 +4,12 @@ body{
 }
 nav{
     background-color: black;
+    color: aliceblue;
 }
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.brand{
-    color: aliceblue;
 }
 .searchbar{
     display: flex;
@@ -40,15 +38,16 @@ nav{
     color: darkorange;
     font-size: larger;
 }
-.navButtons{
-    color: aliceblue;
-}
 .bottomDiv{
     display: flex;
     justify-content: space-around;
     margin: 0%;
     padding: 0%;
-    color: aliceblue;
     width: 50%;
     margin-left: 25%;
+}
+.offerTimer{
+    display: flex;
+    gap: 6px;
+    text-align: center;
 }

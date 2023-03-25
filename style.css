@@ -2,11 +2,13 @@ body{
     margin: 0px;
     padding: 0px;
 }
+nav{
+    background-color: black;
+}
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
 }
 .brand{
     color: aliceblue;
@@ -46,6 +48,7 @@ body{
     justify-content: space-around;
     margin: 0%;
     padding: 0%;
-    background-color: black;
     color: aliceblue;
+    width: 50%;
+    margin-left: 25%;
 }

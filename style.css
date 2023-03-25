@@ -1,10 +1,11 @@
 body{
     margin: 0px;
     padding: 0px;
-    color: aliceblue;
+   
 }
 nav{
     background-color: black;
+    color: aliceblue;
 }
 .header{
     display: flex;
@@ -43,9 +44,11 @@ nav{
     justify-content: space-around;
     width: 50%;
     margin-left: 20%;
+    color: aliceblue;
 }
 .availableProducts{
 cursor: pointer;
+color: aliceblue;
 }
 .offerTimer{
     display: flex;
@@ -93,6 +96,7 @@ span{
     left: 10%;
     font-size:20vh;
     text-align: center;
+    color: aliceblue;
 }
 .productPrice{
     position: absolute;
@@ -100,6 +104,7 @@ span{
     left: 10%;
     font-size: 12vh;
     text-align: center;
+    color: aliceblue;
 }
 .buyProduct{
     position: absolute;

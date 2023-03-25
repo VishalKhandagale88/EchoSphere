@@ -19,7 +19,7 @@ body{
     border-radius:15px;
 }
 .inputbar{
-    width: 25vw;
+    width: 29vw;
     height: 25px;
     border: none;
     background-color: aqua;
@@ -33,4 +33,8 @@ body{
 }
 .searchicon :hover{
     cursor: pointer;
+}
+.inputbar::placeholder{
+    color: darkorange;
+    font-size: larger;
 }

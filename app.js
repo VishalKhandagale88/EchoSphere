@@ -17,9 +17,5 @@ function offerTimer(){
     minTag.innerHTML = `${minutesLeft} <span>:</span>`;
     secTag.innerHTML = `${secondsLeft}`;
 }
-
 offerTimer();
 setInterval(offerTimer,1000);
-
-
-

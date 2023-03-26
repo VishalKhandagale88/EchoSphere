@@ -63,7 +63,7 @@ const products=[
     {
         id:4,
         title:"Marshall",
-        price:2000,
+        price:4000,
         colors:[
             {
                 code:"rgb(247, 208, 12)",

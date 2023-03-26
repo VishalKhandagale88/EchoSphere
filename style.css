@@ -196,3 +196,9 @@ span{
     background-color:rgb(68, 66, 66);
     color: #fff;
 }
+.buyProductNow{
+    height: 5vh;
+    width: 10vw;
+    margin-top: 4%;
+    border-radius: 10px;
+}

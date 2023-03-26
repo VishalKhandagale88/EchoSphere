@@ -85,12 +85,20 @@ offerTimer();
 setInterval(offerTimer,1000);
 
 var selectedProduct = products[0];
+var productSelectedImageTag = document.querySelector(".productImageSelected");
+var productTitleTag = document.querySelector(".titleOfProduct");
+var productPriceTag = document.querySelector(".priceOfProduc");
+var productDescriptionTag = document.querySelector(".descriptionOfProduct");
+var productSelectedColor =  document.querySelectorAll(".color");
+
 const slideWrapper = document.querySelector(".sliderWrapper");
 const productSelected = document.querySelectorAll(".availableProducts");
 productSelected.forEach((itemSelected,index)=>{
     itemSelected.addEventListener("click",()=>{
         slideWrapper.style.transform = `translateX(${-100*index}vw)`;
         selectedProduct=products[index];
-        console.log(selectedProduct);
+
+        //show the selected product in product template
+        productTitleTag.textContent = selectedProduct.title; 
     });
 });

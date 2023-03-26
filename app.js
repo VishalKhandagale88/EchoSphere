@@ -25,8 +25,8 @@ const products=[
                 img:"./source/neck band/kindpng_5470937.png"
             },
             {
-                code:"black gold",
-                img:"./source/neck band/kindpng_7414657.png"
+                code:"rgb(54, 39, 176)",
+                img:"./source/neck band/kindpng_2091689.png"
             },
         ],
         description:"ksdnkavlllllllsdjbkalsLDBLVVUSBSLI6565sldngahu16545ksjjbaiog"
@@ -37,11 +37,11 @@ const products=[
         price:6000,
         colors:[
             {
-                code:"blackgreen",
+                code:"black",
                 img:"./source/ear buds/peats.png"
             },
             {
-                code:"red gray",
+                code:"rgb(87, 84, 85)",
                 img:"./source/ear buds/PngItem_5956227.png"
             },
         ],
@@ -53,7 +53,7 @@ const products=[
         price:2000,
         colors:[
             {
-                code:"brown black",
+                code:"rgb(247, 208, 12)",
                 img:"./source/wiredEar phones/PngItem_3093372.png"
             },
             {

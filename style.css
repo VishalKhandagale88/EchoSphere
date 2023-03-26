@@ -182,3 +182,7 @@ span{
 .color:last-child{
     background-color: blue;
 }
+.buyProductNow:hover{
+    background-color:rgb(68, 66, 66);
+    color: #fff;
+}

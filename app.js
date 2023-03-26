@@ -116,3 +116,9 @@ productSelected.forEach((itemSelected,index)=>{
         })
     });
 });
+
+productSelectedColor.forEach((color,index)=>{
+    color.addEventListener("click",()=>{
+        productSelectedImageTag.src = selectedProduct.colors[index].img
+    });
+});

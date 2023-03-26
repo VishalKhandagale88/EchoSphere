@@ -5,11 +5,11 @@ const products=[
         price:5000,
         colors:[
             {
-                code:"red",
+                code:"blue",
                 img:"./source/on head/pngwing.com.png"
             },
             {
-                code:"while",
+                code:"rgb(217, 213, 204)",
                 img:"./source/on head/pngwing.com (1).png"
             },
         ],
@@ -21,7 +21,7 @@ const products=[
         price:4000,
         colors:[
             {
-                code:"yellow",
+                code:"rgb(58, 52, 105)",
                 img:"./source/neck band/kindpng_5470937.png"
             },
             {

@@ -177,13 +177,13 @@ span{
     gap: 10px;
 }
 .color{
-    background-color: brown;
+    background-color: blue;
     height: 5vh;
     width: 3vw;  
     border-radius: 10px;
 }
 .color:last-child{
-    background-color: blue;
+    background-color: rgb(217, 213, 204);
 }
 .buyProductNow:hover{
     background-color:rgb(68, 66, 66);

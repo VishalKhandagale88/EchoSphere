@@ -205,7 +205,7 @@ span{
 }
 .paymentOption{
     width: 30vw;
-    height: 50vh;
+    height: 70%;
     background-color: #fff;
     position: absolute;
     top: 0;
@@ -219,4 +219,19 @@ span{
     box-shadow: 11px 11px 38px -7px rgba(0,0,0,0.74);
 -webkit-box-shadow: 11px 11px 38px -7px rgba(0,0,0,0.74);
 -moz-box-shadow: 11px 11px 38px -7px rgba(0,0,0,0.74);
+}
+.payTitle{
+    color: gray;
+}
+label{
+    margin-left: 2%;
+}
+input{
+    padding: 2%;
+    margin: 2%;
+    border: none;
+    border-bottom:1px solid black ;
+}
+.input::placeholder{
+    color: gray;
 }

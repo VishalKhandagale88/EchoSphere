@@ -12,7 +12,8 @@ const products=[
                 code:"while",
                 img:"./source/on head/pngwing.com (1).png"
             },
-        ]
+        ],
+        description:"ksdnkavlllllllsdjbkalsLDBLVVUSBSLI6565sldngahu16545ksjjbaiogsadlilnfpn6544688"
     },
     {
         id:2,
@@ -27,7 +28,8 @@ const products=[
                 code:"black gold",
                 img:"./source/neck band/kindpng_7414657.png"
             },
-        ]
+        ],
+        description:"ksdnkavlllllllsdjbkalsLDBLVVUSBSLI6565sldngahu16545ksjjbaiog"
     },
     {
         id:3,
@@ -42,7 +44,8 @@ const products=[
                 code:"red gray",
                 img:"./source/ear buds/PngItem_5956227.png"
             },
-        ]
+        ],
+        description:"ksdnkavlllllllsdjbkalsLDBLVVUSBSLI6565sldngahu16545"
     },
     {
         id:4,
@@ -57,7 +60,8 @@ const products=[
                 code:"black",
                 img:"./source/wiredEar phones/PngItem_2078302.png"
             },
-        ]
+        ],
+        description:"ksdnkavlllllllsdjbkalsLDBLVVUSBSLI"
     }
 
 ]
@@ -87,9 +91,11 @@ setInterval(offerTimer,1000);
 var selectedProduct = products[0];
 var productSelectedImageTag = document.querySelector(".productImageSelected");
 var productTitleTag = document.querySelector(".titleOfProduct");
-var productPriceTag = document.querySelector(".priceOfProduc");
+var productPriceTag = document.querySelector(".priceOfProduct");
 var productDescriptionTag = document.querySelector(".descriptionOfProduct");
 var productSelectedColor =  document.querySelectorAll(".color");
+
+console.log(productPriceTag);
 
 const slideWrapper = document.querySelector(".sliderWrapper");
 const productSelected = document.querySelectorAll(".availableProducts");
@@ -100,5 +106,8 @@ productSelected.forEach((itemSelected,index)=>{
 
         //show the selected product in product template
         productTitleTag.textContent = selectedProduct.title; 
+        productPriceTag.textContent = selectedProduct.price;
+        productDescriptionTag.textContent = selectedProduct.description;
+        productSelectedImageTag.src = selectedProduct.colors[0].img
     });
 });

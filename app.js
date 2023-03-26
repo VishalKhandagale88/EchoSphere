@@ -1,3 +1,66 @@
+const products=[
+    {
+        id:1,
+        title:"on head",
+        price:5000,
+        colors:[
+            {
+                code:"red",
+                img:"./source/on head/pngwing.com (2).png"
+            },
+            {
+                code:"while",
+                img:"./source/on head/pngwing.com (1).png"
+            },
+        ]
+    },
+    {
+        id:2,
+        title:"neck band",
+        price:4000,
+        colors:[
+            {
+                code:"yellow",
+                img:"./source/neck band/kindpng_2091689.png"
+            },
+            {
+                code:"black gold",
+                img:"./source/neck band/kindpng_7414657.png"
+            },
+        ]
+    },
+    {
+        id:3,
+        title:"Ear buds",
+        price:6000,
+        colors:[
+            {
+                code:"blackgreen",
+                img:"./source/ear buds/PngItem_4158411.png"
+            },
+            {
+                code:"red gray",
+                img:"./source/ear buds/PngItem_5956227.png"
+            },
+        ]
+    },
+    {
+        id:3,
+        title:"wire",
+        price:2000,
+        colors:[
+            {
+                code:"brown black",
+                img:"./source/wiredEar phones/PngItem_1752508.png"
+            },
+            {
+                code:"black",
+                img:"./source/wiredEar phones/PngItem_2078302.png"
+            },
+        ]
+    }
+
+]
 var daysTag = document.getElementById("daysleft");
 var hrsTag = document.getElementById("hrsleft");
 var minTag = document.getElementById("minsleft");

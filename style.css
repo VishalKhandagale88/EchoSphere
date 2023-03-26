@@ -128,10 +128,11 @@ span{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: 20vh;
 }
 .featureImage{
     height: 12vh;
-    width: 12vw;
+    width: 10vw;
 }
 .featureTitle{
     font-weight: bold;

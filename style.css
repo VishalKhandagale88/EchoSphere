@@ -159,7 +159,7 @@ span{
 }
 .productDetails{
     position: absolute;
-    top: 10%;
+    bottom: 20%;
     right: 15%;
     font-size: larger;
     width: 40%;

@@ -1,92 +1,84 @@
 const products=[
     {
         id:1,
+        title:"JBL Tune 510BT",
         price:5000,
         colors:[
             {
-                title:"JBL Tune 510BT",
                 code:"blue",
                 img:"./source/on head/pngwing.com.png"
             },
             {
-                title:"JBL Tune 510BT white",
                 code:"rgb(217, 213, 204)",
                 img:"./source/on head/pngwing.com (1).png"
             },
             {
-                title:"JBL Tune 510BT red",
                 code:"red",
                 img:"./source/on head/pngwing.com (2).png"
             }
         ],
-        description:"On Ear Wireless Headphones with Mic, up to 40 Hours Playtime, Pure Bass, Quick Charging, Dual Pairing, Bluetooth 5.0 & Voice Assistant Support for Mobile Phones (Blue)"
+        description:"JBL PURE BASS SOUND: For over 70 years, JBL has engineered the precise, impressive sound found in big venues around the world. These Bluetooth headphones reproduce that same JBL sound, punching out bass that’s both deep and powerful."
     },
     {
         id:2,
+        title:"TUne i ",
         price:4000,
         colors:[
             {
-                title:"AmazonBasic",
                 code:"rgb(58, 52, 105)",
                 img:"./source/neck band/kindpng_5470937.png"
             },
             {
-                title:"AmazonBasic Y909 light blue",
                 code:"rgb(54, 39, 176)",
                 img:"./source/neck band/kindpng_2091689.png"
             },
             {
-                title:"AmazonBasic Y909 light brown",
                 code:"rgb(135, 115, 12)",
                 img:"./source/neck band/kindpng_7414657.png"
             }
         ],
-        description:"Truly Wireless in Ear Earbuds with Built-in Mic, Touch Control, IPX5 Water Resistant, Bluetooth 5.3, Up to 25 Hours Playtime and Fast Charging "
+        description:"GOOGLE FAST PAIR: Thanks to Fast Pair enabled by Google, the JBL Tune 760NC are immediately connected to your Android device. You can also pair multiple devices just by tapping on the devices’ screen."
     },
     {
         id:3,
+        title:"SoundsPeats",
         price:6000,
         colors:[
             {
-                title:"SoundPEATS p-945",
                 code:"black",
                 img:"./source/ear buds/peats.png"
             },
             {
-                title:"JBL ear buds je-488",
                 code:"rgb(87, 84, 85)",
-                img:"./source/ear buds/PngItem_5956227.png"
+                img:"./source/ear buds/0.jpg"
             },
             {
-                title:"JBL ear-buds JL-508",
-                code:"rgb(7, 126, 237)",
-                img:"./source/ear buds/gbl.png"
+                code:"rgb(32, 171, 164)",
+                img:"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/612ekjdsxvL._SX522_.jpg"
             }
             
         ],
-        description:"TrueFree+ True Wireless Earbuds Bluetooth 5.0 in-Ear Headphones, Earphones with Built-in Mic, 650 mAh Battery, 35 Hours Playtime"
+        description:"omplete wireless & latest Bluetooth 5. 0: Thanks to the latest Bluetooth 5. 0 With high resolution decoder built-in and AAC/SBC audio coding technology, both speed and range in communication have dramatically improved. By improving communication problems of conventional Bluetooth earphones and minimizing sound skipping and interruption, you can enjoy Music comfortably even in the bustle of the city"
     },
     {
         id:4,
+        title:"Marshall",
         price:2000,
         colors:[
             {
-                title:"Marshall 4090940",
                 code:"rgb(247, 208, 12)",
                 img:"./source/wiredEar phones/PngItem_3093372.png"
             },
             {
-                title:"Marshall 256405",
                 code:"black",
                 img:"./source/wiredEar phones/PngItem_2078302.png"
             },
             {
-                title:"Ironman Sweat-Resistant",
                 code:"rgb(145, 55, 23)",
                 img:"./source/wiredEar phones/PngItem_1752508.png"
             }
         ],
-        description:"Mode EQ Wired in Ear Headphone with Mic (Brass)"
+        description:"Marshall. Frequency Response : 20 Hz-20kHz. Sensitivity : 100 dB SPL. Driver Impedance: 18 Ω Mode eq sports the iconic marshall logo on the cable clip and marshall m logo on its earphones"
     }
 
 ]
@@ -120,7 +112,7 @@ var productPriceTag = document.querySelector(".priceOfProduct");
 var productDescriptionTag = document.querySelector(".descriptionOfProduct");
 var productSelectedColor =  document.querySelectorAll(".color");
 
-
+console.log(productPriceTag);
 
 const slideWrapper = document.querySelector(".sliderWrapper");
 const productSelected = document.querySelectorAll(".availableProducts");
@@ -130,7 +122,7 @@ productSelected.forEach((itemSelected,index)=>{
         selectedProduct=products[index];
 
         //show the selected product in product template
-        productTitleTag.textContent = selectedProduct.colors[0].title; 
+        productTitleTag.textContent = selectedProduct.title; 
         productPriceTag.textContent = "₹ "+selectedProduct.price;
         productDescriptionTag.textContent = selectedProduct.description;
         productSelectedImageTag.src = selectedProduct.colors[0].img
@@ -138,11 +130,9 @@ productSelected.forEach((itemSelected,index)=>{
         // change the product by colors
         productSelectedColor.forEach((color,index)=>{
             color.style.backgroundColor = selectedProduct.colors[index].code;
-            productTitleTag.textContent = selectedProduct.colors[index].title; 
-        });
+        })
     });
 });
-
 
 productSelectedColor.forEach((color,index)=>{
     color.addEventListener("click",()=>{

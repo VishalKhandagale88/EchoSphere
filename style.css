@@ -4,6 +4,7 @@ html{
 body{
     margin: 0px;
     padding: 0px;
+    background-color: aliceblue;
    
 }
 nav{
@@ -124,6 +125,7 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 .feature{
     display: flex;

@@ -139,3 +139,12 @@ productSelectedColor.forEach((color,index)=>{
         productSelectedImageTag.src = selectedProduct.colors[index].img
     });
 });
+var buyProductNowTag = document.querySelector(".buyProductNow");
+var closeOrderTab = document.querySelector(".close");
+var paymentDiv = document.querySelector(".paymentOption");
+buyProductNowTag.addEventListener("click",()=>{
+   paymentDiv.style.display="flex";  
+});
+closeOrderTab.addEventListener("click",()=>{
+    paymentDiv.style.display="none";
+});

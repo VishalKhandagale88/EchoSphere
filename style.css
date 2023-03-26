@@ -151,7 +151,9 @@ span{
     position: relative;
 }
 .productImageSelected{
-    width: 50%;
+    width: 40vw;
+    height: 70vh;
+
 }
 .productDetails{
     position: absolute;

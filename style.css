@@ -240,3 +240,14 @@ input{
     align-items: center;
     gap: 10px;
 }
+.payBill{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 5vh;
+    background-color: #0fa;
+    border: none;
+    font-size: larger;
+    
+}

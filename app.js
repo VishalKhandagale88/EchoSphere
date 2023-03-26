@@ -106,7 +106,7 @@ productSelected.forEach((itemSelected,index)=>{
 
         //show the selected product in product template
         productTitleTag.textContent = selectedProduct.title; 
-        productPriceTag.textContent = selectedProduct.price;
+        productPriceTag.textContent = "₹ "+selectedProduct.price;
         productDescriptionTag.textContent = selectedProduct.description;
         productSelectedImageTag.src = selectedProduct.colors[0].img
     });

@@ -182,8 +182,11 @@ span{
     width: 3vw;  
     border-radius: 10px;
 }
-.color:last-child{
+.color:nth-child(2){
     background-color: rgb(217, 213, 204);
+}
+.color:nth-child(3){
+    background-color: red;
 }
 .buyProductNow:hover{
     background-color:rgb(68, 66, 66);

@@ -249,5 +249,11 @@ input{
     background-color: #0fa;
     border: none;
     font-size: larger;
-    
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    cursor: pointer;
 }

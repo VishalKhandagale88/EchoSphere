@@ -235,3 +235,8 @@ input{
 .input::placeholder{
     color: gray;
 }
+.cardIcons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

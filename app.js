@@ -109,5 +109,10 @@ productSelected.forEach((itemSelected,index)=>{
         productPriceTag.textContent = "₹ "+selectedProduct.price;
         productDescriptionTag.textContent = selectedProduct.description;
         productSelectedImageTag.src = selectedProduct.colors[0].img
+
+        // chage the product by colors
+        productSelectedColor.forEach((color,index)=>{
+            color.style.backgroundColor = selectedProduct.colors[index].code;
+        })
     });
 });

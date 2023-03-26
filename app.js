@@ -6,7 +6,7 @@ const products=[
         colors:[
             {
                 code:"red",
-                img:"./source/on head/pngwing.com (2).png"
+                img:"./source/on head/pngwing.com.png"
             },
             {
                 code:"while",
@@ -22,7 +22,7 @@ const products=[
         colors:[
             {
                 code:"yellow",
-                img:"./source/neck band/kindpng_2091689.png"
+                img:"./source/neck band/kindpng_5470937.png"
             },
             {
                 code:"black gold",
@@ -38,7 +38,7 @@ const products=[
         colors:[
             {
                 code:"blackgreen",
-                img:"./source/ear buds/PngItem_4158411.png"
+                img:"./source/ear buds/peats.png"
             },
             {
                 code:"red gray",
@@ -54,7 +54,7 @@ const products=[
         colors:[
             {
                 code:"brown black",
-                img:"./source/wiredEar phones/PngItem_1752508.png"
+                img:"./source/wiredEar phones/PngItem_3093372.png"
             },
             {
                 code:"black",

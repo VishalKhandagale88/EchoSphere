@@ -45,7 +45,7 @@ const products=[
         ]
     },
     {
-        id:3,
+        id:4,
         title:"wire",
         price:2000,
         colors:[
@@ -84,10 +84,13 @@ function offerTimer(){
 offerTimer();
 setInterval(offerTimer,1000);
 
+var selectedProduct = products[0];
 const slideWrapper = document.querySelector(".sliderWrapper");
 const productSelected = document.querySelectorAll(".availableProducts");
 productSelected.forEach((itemSelected,index)=>{
     itemSelected.addEventListener("click",()=>{
         slideWrapper.style.transform = `translateX(${-100*index}vw)`;
+        selectedProduct=products[index];
+        console.log(selectedProduct);
     });
 });

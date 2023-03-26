@@ -203,3 +203,20 @@ span{
     margin-top: 4%;
     border-radius: 10px;
 }
+.paymentOption{
+    width: 30vw;
+    height: 50vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    box-shadow: 11px 11px 38px -7px rgba(0,0,0,0.74);
+-webkit-box-shadow: 11px 11px 38px -7px rgba(0,0,0,0.74);
+-moz-box-shadow: 11px 11px 38px -7px rgba(0,0,0,0.74);
+}

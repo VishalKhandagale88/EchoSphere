@@ -261,7 +261,11 @@ input{
 .gallary{
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding-left: 120px;
+}
+.gallaryImg{
+    border: 2px solid gray;
+    border-radius: 7px;
 }
 .gallaryItems{
     flex: 1;
@@ -270,6 +274,7 @@ input{
     display: flex;
 }
 .nsItem{
+    display: flex;
     flex: 1;
     background-color: black;
     color: aliceblue;

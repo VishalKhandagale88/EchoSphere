@@ -266,3 +266,15 @@ input{
 .gallaryItems{
     flex: 1;
 }
+.newSeason{
+    display: flex;
+}
+.nsItem{
+    flex: 1;
+    background-color: black;
+    color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -54,7 +54,8 @@ const products=[
             },
             {
                 code:"rgb(32, 171, 164)",
-                img:"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/612ekjdsxvL._SX522_.jpg"
+                img:"./source/ear buds/PngItem_5956227.png"
+            
             }
             
         ],

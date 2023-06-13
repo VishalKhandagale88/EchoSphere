@@ -258,3 +258,11 @@ input{
     top: 1%;
     cursor: pointer;
 }
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.gallaryItems{
+    flex: 1;
+}

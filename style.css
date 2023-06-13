@@ -342,3 +342,32 @@ footer{
     font-weight: 300;
     font-size: 14px;
 }
+
+@media screen and (max-width:480px) {
+    /* this means that if screen is less than 480px it will apply different css */
+    nav{
+        padding: 20px;
+    }
+    .searchbar{
+        display: none;
+    }
+    .bottomDiv{
+        column-gap: 20px;
+    }
+    .newSeason{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerLeft{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerLeft{
+        display: grid;
+        grid-template-columns: 2% 1%;
+    }
+}

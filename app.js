@@ -96,10 +96,10 @@ function offerTimer(){
     var hrsLeft = Math.floor(milliSeconds/3600)%24;
     var minutesLeft = Math.floor(milliSeconds/60)%60;
     var secondsLeft = Math.floor(milliSeconds)%60;
-    daysTag.innerHTML = `${daysLeft} <span>:</span>`;
-    hrsTag.innerHTML = `${hrsLeft} <span>:</span>`;
-    minTag.innerHTML = `${minutesLeft} <span>:</span>`;
-    secTag.innerHTML = `${secondsLeft}`;
+    daysTag.innerHTML = `${daysLeft} : `;
+    hrsTag.innerHTML = `${hrsLeft} : `;
+    minTag.innerHTML = `${minutesLeft} : `;
+    secTag.innerHTML = `${secondsLeft}`;    
     discountDate.innerHTML = `${dateNew.getDate()}/${dateNew.getMonth()}/${dateNew.getFullYear()}`;
 }
 

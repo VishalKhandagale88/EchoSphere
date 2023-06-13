@@ -313,4 +313,27 @@ footer{
 .footerRight{
     flex: 1;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fInput{
+    padding: 5px;
+}
+
+.fButton{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.fIcons{
+    display: flex;
+}
+.fIcon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
 }

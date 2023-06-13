@@ -284,6 +284,7 @@ input{
     justify-content: center;
     text-align: center;
 }
+
 .nsButton{
     padding: 15px;
     font-weight: 600;
@@ -361,6 +362,9 @@ footer{
     footer{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid hotpink;
     }
     .footerLeft{
         display: flex;
@@ -368,6 +372,7 @@ footer{
         align-items: center;
         text-align: center;
         font-size: x-large;
+        border: 2px solid green;
     }
     .footerRight{
         display: flex;
@@ -376,5 +381,38 @@ footer{
         justify-content: center;
         text-align: center;
     }
-    
+    .features{
+        display: flex;
+        flex-direction: column;
+        column-gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    .featureImage{
+        height: 100px;
+        width: 200px;
+    }
+    .product{
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    .titleOfProduct{
+        font-size: xx-large;
+    }
+    .productImageSelected{
+        height: 500px;
+        width: 500px;
+    }
+    .color{
+        height: 30px;
+        width: 30px;
+    }
+    .buyProductNow{
+        width: fit-content;
+    }
+    .paymentOption{
+        width: fit-content;
+    }
 }

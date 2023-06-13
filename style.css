@@ -283,3 +283,9 @@ input{
     justify-content: center;
     text-align: center;
 }
+.nsButton{
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 7px;
+}

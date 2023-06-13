@@ -365,9 +365,16 @@ footer{
     .footerLeft{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: x-large;
     }
-    .footerLeft{
-        display: grid;
-        grid-template-columns: 2% 1%;
+    .footerRight{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
+    
 }

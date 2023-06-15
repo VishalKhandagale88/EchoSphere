@@ -392,12 +392,6 @@ footer{
         height: 100px;
         width: 200px;
     }
-    .product{
-        display: flex;
-        column-gap: 5px;
-        align-items: center;
-        justify-content: center;
-    }
     .titleOfProduct{
         font-size: xx-large;
     }
